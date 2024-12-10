@@ -26,8 +26,8 @@ export const APIRoutes = {
     INSERT_SALE_ORDER_SAVE: `${ServerURL.PRODUCTION_HOST_URL}api/WebMobileApp/InsertSaleOrderSave`,
 
     //Category and Subcategory API's
-    GET_TOP_CATEGORIES: `${ServerURL.PRODUCTION_HOST_URL}api/CategoryApp/SelectCategory`,
-    GET_CATEGORY_SUBCATEGORY: `${ServerURL.PRODUCTION_HOST_URL}api/ItemmasterApp/SelectSubCategorId`,
+    GET_TOP_CATEGORIES: `${ServerURL.PRODUCTION_HOST_URL}api/CategoryEcomApp/SelectCategory`,
+    GET_CATEGORY_SUBCATEGORY: `${ServerURL.PRODUCTION_HOST_URL}api/ItemmasterEcomApp/SelectSubCategorId`,
 
     //Offer post (banner slider) and offer product API's
     GET_BANNER_OFFER_POST: `${ServerURL.PRODUCTION_HOST_URL}api/OfferPost/SelectOfferPost`,
@@ -42,7 +42,7 @@ export const APIRoutes = {
     GET_PRODUCT_BY_CATEGORY: `${ServerURL.PRODUCTION_HOST_URL}api/WebMobileApp/SelectProductByCategory`,
     GET_PRODUCT_BY_SUBCATEGORY: `${ServerURL.PRODUCTION_HOST_URL}api/WebMobileApp/SelectProductBySubCategory`,
     GET_PRODUCT_BY_ID: `${ServerURL.PRODUCTION_HOST_URL}api/WebMobileApp/SelectProductId`,
-    GET_SEARCH_BY_PRODUCT: `${ServerURL.PRODUCTION_HOST_URL}api/ItemmasterApp/SelectProductAdminSearch`,
+    GET_SEARCH_BY_PRODUCT: `${ServerURL.PRODUCTION_HOST_URL}api/ItemmasterEcomApp/SelectProductAdminSearch`,
 
     //Wishlist product (favorite)
     INSERT_FAVORITE_PRODUCT: `${ServerURL.PRODUCTION_HOST_URL}api/WhishlistApp/InsertWishlist`,
